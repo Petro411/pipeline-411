@@ -51,7 +51,7 @@ export const statesList = [
 
 export const demoPrivacy = `
 <p>
-  At <strong>Petro411</strong>, we are committed to protecting your personal
+  At <strong>Pipeline411</strong>, we are committed to protecting your personal
   information and your right to privacy. This Privacy Policy explains what
   information we collect, how we use it, and what rights you have in relation
   to it.
@@ -113,14 +113,14 @@ export const demoPrivacy = `
 <h3>8. Contact Us</h3>
 <p>
   If you have any questions about this Privacy Policy, please contact us at:
-  <a href="mailto:support@petro411.com">support@petro411.com</a>
+  <a href="mailto:support@Pipeline411.com">support@Pipeline411.com</a>
 </p>`
 
 
-export const demoTerms = `<p>Welcome to Petro411. By accessing or using our website and services, you agree to be bound by these Terms of Use. If you do not agree with any part of these terms, please do not use our website.</p>
+export const demoTerms = `<p>Welcome to Pipeline411. By accessing or using our website and services, you agree to be bound by these Terms of Use. If you do not agree with any part of these terms, please do not use our website.</p>
 
   <h2>1. Use of the Website</h2>
-  <p>Petro411 provides data related to mineral owners and allows users to view, search, and download information through a subscription-based model. You agree to use this website only for lawful purposes and in accordance with these terms.</p>
+  <p>Pipeline411 provides data related to mineral owners and allows users to view, search, and download information through a subscription-based model. You agree to use this website only for lawful purposes and in accordance with these terms.</p>
 
   <h2>2. User Accounts</h2>
   <p>To access certain features, you may be required to create an account. You are responsible for maintaining the confidentiality of your login credentials and all activities that occur under your account.</p>
@@ -129,10 +129,10 @@ export const demoTerms = `<p>Welcome to Petro411. By accessing or using our webs
   <p>We offer various subscription plans. By subscribing, you agree to pay the fees associated with your chosen plan. Subscription fees are non-refundable and are billed on a recurring basis unless canceled.</p>
 
   <h2>4. Data Usage</h2>
-  <p>The data provided by Petro411 is for personal or business use only and may not be redistributed, resold, or used for illegal activities. Any misuse of data may result in suspension or termination of your account.</p>
+  <p>The data provided by Pipeline411 is for personal or business use only and may not be redistributed, resold, or used for illegal activities. Any misuse of data may result in suspension or termination of your account.</p>
 
   <h2>5. Intellectual Property</h2>
-  <p>All content on this site, including text, graphics, logos, and software, is the property of Petro411 and is protected by copyright and other intellectual property laws.</p>
+  <p>All content on this site, including text, graphics, logos, and software, is the property of Pipeline411 and is protected by copyright and other intellectual property laws.</p>
 
   <h2>6. Prohibited Conduct</h2>
   <ul>
@@ -146,16 +146,16 @@ export const demoTerms = `<p>Welcome to Petro411. By accessing or using our webs
   <p>We do not guarantee the accuracy or completeness of the data. The service is provided "as is" without warranties of any kind, either express or implied.</p>
 
   <h2>8. Limitation of Liability</h2>
-  <p>In no event shall Petro411 be liable for any damages arising out of the use or inability to use the services, including but not limited to indirect, incidental, or consequential damages.</p>
+  <p>In no event shall Pipeline411 be liable for any damages arising out of the use or inability to use the services, including but not limited to indirect, incidental, or consequential damages.</p>
 
   <h2>9. Modifications</h2>
   <p>We reserve the right to update or change these Terms of Use at any time. Continued use of the website after changes constitutes your acceptance of the new terms.</p>
 
   <h2>10. Governing Law</h2>
-  <p>These Terms of Use are governed by and construed in accordance with the laws of the jurisdiction in which Petro411 operates.</p>
+  <p>These Terms of Use are governed by and construed in accordance with the laws of the jurisdiction in which Pipeline411 operates.</p>
 
   <h2>11. Contact Us</h2>
-  <p>If you have any questions or concerns regarding these Terms of Use, please contact us at <a href="mailto:support@petro411.com">support@petro411.com</a>.</p>`
+  <p>If you have any questions or concerns regarding these Terms of Use, please contact us at <a href="mailto:support@Pipeline411.com">support@Pipeline411.com</a>.</p>`
 
 
 export const US_STATES: Record<string, string> = {

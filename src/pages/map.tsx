@@ -26,20 +26,20 @@ function Map() {
   return (
     <div>
       <SeoHead
-        title="Mineral Owners Map | Search by State & County | Petro411"
-        description="Explore Petro411's interactive map to find mineral owners near you. Select a state, choose a county, and view detailed mineral ownership listings instantly."
-        url="https://www.petro411.com/map"
+        title="Surface Owners Map | Search by State & County | Pipeline411"
+        description="Explore Pipeline411's interactive map to find Surface owners near you. Select a state, choose a county, and view detailed Surface ownership listings instantly."
+        url="https://www.Pipeline411.com/map"
       />
       <SiteHeader />
       <div className={`gradientBg text-white`}>
         <Container className="min-h-[40vh] items-center justify-center flex flex-col text-center gap-4">
           <h1 className="text-4xl md:text-5xl font-bold">
-            Mineral Owners Map
-            {/* {label.YourMineralOwners} */}
+            Surface Owners Map
+            {/* {label.YourSurfaceOwners} */}
           </h1>
           <Text as={"p"} size={"3"} className="w-full md:w-[80%] lg:w-[60%]">
             Select a state on the map to view its counties, then choose a county
-            to see the list of mineral owners in that area.
+            to see the list of Surface owners in that area.
             {/* {label.SimplifiesLandAcquisition} */}
           </Text>
         </Container>

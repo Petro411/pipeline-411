@@ -9,8 +9,8 @@ const Logo = () => {
       <Image
         className=""
         src={"/logo-name.png"}
-        alt="Petro411 - Logo"
-        title="Petro411 - Logo"
+        alt="Pipeline411 - Logo"
+        title="Pipeline411 - Logo"
         height={155}
         width={155}
         preload

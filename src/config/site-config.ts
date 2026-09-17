@@ -1,22 +1,22 @@
 const siteConfig = {
-    title: "Petro411 - Mineral Data Made Simple",
-    description: "Discover detailed mineral ownership data with Petro411. Subscribe to access verified property and ownership information quickly and easily.",
-    domain: "https://petro411.com",
+    title: "Pipeline411 - Mineral Data Made Simple",
+    description: "Discover detailed mineral ownership data with Pipeline411. Subscribe to access verified property and ownership information quickly and easily.",
+    domain: "https://Pipeline411.com",
 
     keywords: [
         "Mineral Data",
         "Mineral Owners",
         "Land Ownership",
         "Property Search",
-        "Petro411",
+        "Pipeline411",
         "Subscription Mineral Platform",
     ],
 
-    author: "Petro411 Team",
+    author: "Pipeline411 Team",
     logo: "/assets/logo.svg", // adjust as needed
     socialLinks: {
-        twitter: "https://twitter.com/petro411",
-        linkedin: "https://linkedin.com/company/petro411",
+        twitter: "https://twitter.com/Pipeline411",
+        linkedin: "https://linkedin.com/company/Pipeline411",
     },
     UserTypes: {
         user: "user",

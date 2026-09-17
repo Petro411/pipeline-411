@@ -14,8 +14,8 @@ async function handler(req: any, res: any) {
         await Contact.create(req.body);
 
         await transporter.sendMail({
-            to: 'info@petro411.com',
-            subject: 'Petro411 Contact Form',
+            to: 'info@Pipeline411.com',
+            subject: 'Pipeline411 Contact Form',
             html: getTemplate('contact', {
                 name,
                 email,
