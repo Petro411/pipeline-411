@@ -24,11 +24,11 @@ interface SeoHeadProps {
  * const faqs: FaqItem[] = [
  *   {
  *     question: "What membership plans are available?",
- *     answer: "Pipeline411 offers free and paid membership plans. Free users can search mineral owner records without contact details, while paid members get full access to phone numbers, emails, and addresses.",
+ *     answer: "Pipeline411 offers free and paid membership plans. Free users can search Surface owner records without contact details, while paid members get full access to phone numbers, emails, and addresses.",
  *   },
  *   {
  *     question: "What is this website about?",
- *     answer: "Pipeline411 is a mineral owner contact database built for the oil and gas industry, providing accurate contact information sourced from county property records.",
+ *     answer: "Pipeline411 is a Surface owner contact database built for the oil and gas industry, providing accurate contact information sourced from county property records.",
  *   },
  *   // ...add remaining FAQs
  * ];
@@ -43,9 +43,9 @@ interface SeoHeadProps {
  * }
  */
 export default function SeoHead({
-  title = "Mineral Owner Contact Database | Pipeline411",
-  description = "Find accurate, verified mineral owner contact info — phone, email & address — by county and state. Trusted by landmen and oil & gas pros. Search free.",
-  url = "https://www.Pipeline411.com/",
+  title = "Surface Owner Contact Database | Pipeline411",
+  description = "Find accurate, verified Surface owner contact info — phone, email & address — by county and state. Trusted by landmen and oil & gas pros. Search free.",
+  url = "https://www.pipeline411.com/",
   faqs = [],
   allowIndexing = true,
 }: SeoHeadProps) {
@@ -53,10 +53,10 @@ export default function SeoHead({
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Pipeline411",
-    url: "https://www.Pipeline411.com/",
-    logo: "https://www.Pipeline411.com/logo-name.png",
+    url: "https://www.pipeline411.com/",
+    logo: "https://www.pipeline411.com/logo-name.png",
     description:
-      "Pipeline411 provides accurate, secure mineral owner contact information nationwide for the oil and gas industry.",
+      "Pipeline411 provides accurate, secure Surface owner contact information nationwide for the oil and gas industry.",
       sameAs:[
         'https://www.linkedin.com/company/Pipeline411/'
       ]
@@ -65,10 +65,10 @@ export default function SeoHead({
   const websiteSchema = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    url: "https://www.Pipeline411.com/",
+    url: "https://www.pipeline411.com/",
     potentialAction: {
       "@type": "SearchAction",
-      target: "https://www.Pipeline411.com/owners?state={search_term_string}",
+      target: "https://www.pipeline411.com/owners?state={search_term_string}",
       "query-input": "required name=search_term_string",
     },
   };
@@ -113,7 +113,7 @@ export default function SeoHead({
       <meta property="og:url" content={url} />
       <meta
         property="og:image"
-        content="https://www.Pipeline411.com/assets/cover-bg.png"
+        content="https://www.pipeline411.com/assets/cover-bg.png"
       />
       <meta property="og:site_name" content="Pipeline411" />
 

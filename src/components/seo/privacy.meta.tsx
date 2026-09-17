@@ -30,14 +30,14 @@ const LEGAL_PAGE_DEFAULTS: Record<
   privacy: {
     title: "Privacy Policy | Pipeline411",
     description:
-      "Read Pipeline411's Privacy Policy to understand how we collect, use, and protect your personal information across our mineral owner data platform.",
+      "Read Pipeline411's Privacy Policy to understand how we collect, use, and protect your personal information across our Surface owner data platform.",
     url: "https://www.Pipeline411.com/privacy",
     schemaType: "PrivacyPolicy",
   },
   terms: {
     title: "Terms of Use | Pipeline411",
     description:
-      "Review Pipeline411's Terms of Use governing access to our mineral owner contact database and land acquisition data services.",
+      "Review Pipeline411's Terms of Use governing access to our Surface owner contact database and land acquisition data services.",
     url: "https://www.Pipeline411.com/terms",
     schemaType: "TermsOfService",
   },

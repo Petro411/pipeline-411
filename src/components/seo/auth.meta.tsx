@@ -24,20 +24,20 @@ const AUTH_PAGE_DEFAULTS: Record<
   login: {
     title: "Login | Pipeline411",
     description:
-      "Log in to your Pipeline411 account to search and access verified mineral owner contact data nationwide.",
-    url: "https://www.Pipeline411.com/auth/login",
+      "Log in to your Pipeline411 account to search and access verified Surface owner contact data nationwide.",
+    url: "https://www.pipeline411.com/auth/login",
   },
   signup: {
     title: "Sign Up | Pipeline411",
     description:
-      "Create a free Pipeline411 account to start searching mineral owner contact information by county and state.",
-    url: "https://www.Pipeline411.com/auth/sign-up",
+      "Create a free Pipeline411 account to start searching Surface owner contact information by county and state.",
+    url: "https://www.pipeline411.com/auth/sign-up",
   },
   "forgot-password": {
     title: "Reset Your Password | Pipeline411",
     description:
-      "Forgot your password? Reset your Pipeline411 account password securely and regain access to mineral owner data.",
-    url: "https://www.Pipeline411.com/auth/forgot-password",
+      "Forgot your password? Reset your Pipeline411 account password securely and regain access to Surface owner data.",
+    url: "https://www.pipeline411.com/auth/forgot-password",
   },
 };
 
@@ -93,8 +93,8 @@ export default function SeoHeadAuth({
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Pipeline411",
-    url: "https://www.Pipeline411.com/",
-    logo: "https://www.Pipeline411.com/logo-name.png",
+    url: "https://www.pipeline411.com/",
+    logo: "https://www.pipeline411.com/logo-name.png",
   };
 
   return (

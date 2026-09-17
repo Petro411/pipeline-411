@@ -31,9 +31,9 @@ interface SeoHeadServicesProps {
  *
  * const ServiceCards: ServiceCard[] = [
  *   {
- *     title: "Verified Mineral Ownership Data",
+ *     title: "Verified Surface Ownership Data",
  *     subtitle: "Accurate & Up-to-Date",
- *     description: "We provide reliable and regularly updated information on mineral owners, ensuring your research is always backed by trustworthy data.",
+ *     description: "We provide reliable and regularly updated information on Surface owners, ensuring your research is always backed by trustworthy data.",
  *     image: "/assets/images/list.png",
  *   },
  *   // ...rest of the service cards
@@ -53,9 +53,9 @@ interface SeoHeadServicesProps {
  * }
  */
 export default function SeoHeadServices({
-  title = "Our Services | Mineral Owner Data Solutions | Pipeline411",
-  description = "Verified mineral ownership data, downloadable spreadsheets, advanced search filters and secure access — explore Pipeline411's full suite of services for land professionals.",
-  url = "https://www.Pipeline411.com/services",
+  title = "Our Services | Surface Owner Data Solutions | Pipeline411",
+  description = "Verified Surface ownership data, downloadable spreadsheets, advanced search filters and secure access — explore Pipeline411's full suite of services for land professionals.",
+  url = "https://www.pipeline411.com/services",
   faqs = [],
   services = [],
 }: SeoHeadServicesProps) {
@@ -63,10 +63,10 @@ export default function SeoHeadServices({
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "Pipeline411",
-    url: "https://www.Pipeline411.com/",
-    logo: "https://www.Pipeline411.com/logo-name.png",
+    url: "https://www.pipeline411.com/",
+    logo: "https://www.pipeline411.com/logo-name.png",
     description:
-      "Pipeline411 provides accurate, secure mineral owner contact information nationwide for the oil and gas industry.",
+      "Pipeline411 provides accurate, secure Surface owner contact information nationwide for the oil and gas industry.",
   };
 
   // ItemList + Service schema — built dynamically from the services array
@@ -90,7 +90,7 @@ export default function SeoHeadServices({
               ...(service.image && {
                 image: service.image.startsWith("http")
                   ? service.image
-                  : `https://www.Pipeline411.com${service.image}`,
+                  : `https://www.pipeline411.com${service.image}`,
               }),
             },
           })),
@@ -131,7 +131,7 @@ export default function SeoHeadServices({
       />
       <meta
         property="og:image"
-        content="https://www.Pipeline411.com/assets/cover-bg.png"
+        content="https://www.pipeline411.com/assets/cover-bg.png"
       />
       <meta property="og:site_name" content="Pipeline411" />
 

@@ -36,14 +36,14 @@ interface SeoHeadPricingProps {
  *     title: "Starter",
  *     amount: 0,
  *     billingPeriod: "monthly",
- *     description: "Search and view individual Mineral Owner Name, Address, and Legal Description.",
+ *     description: "Search and view individual Surface Owner Name, Address, and Legal Description.",
  *     features: ["1 User", "1 County", "1 Download", "Free listing view without phone numbers"],
  *   },
  *   {
  *     title: "Pro",
  *     amount: 29.99,
  *     billingPeriod: "monthly",
- *     description: "Access expanded county data with mineral owner contact info.",
+ *     description: "Access expanded county data with Surface owner contact info.",
  *     features: ["1 User", "2 Counties", "20 Downloads/month"],
  *   },
  *   // ...rest of the plans
@@ -63,8 +63,8 @@ interface SeoHeadPricingProps {
  * }
  */
 export default function SeoHeadPricing({
-  title = "Pricing Plans | Mineral Owner Data Access | Pipeline411",
-  description = "Flexible pricing plans for mineral owner data access — from free searches to full county downloads with verified contact info. Choose the plan that fits your needs.",
+  title = "Pricing Plans | Surface Owner Data Access | Pipeline411",
+  description = "Flexible pricing plans for Surface owner data access — from free searches to full county downloads with verified contact info. Choose the plan that fits your needs.",
   url = "https://www.Pipeline411.com/pricing",
   faqs = [],
   plans = [],
@@ -76,7 +76,7 @@ export default function SeoHeadPricing({
     url: "https://www.Pipeline411.com/",
     logo: "https://www.Pipeline411.com/logo-name.png",
     description:
-      "Pipeline411 provides accurate, secure mineral owner contact information nationwide for the oil and gas industry.",
+      "Pipeline411 provides accurate, secure Surface owner contact information nationwide for the oil and gas industry.",
   };
 
   // Product + Offer schema — built dynamically from the plans array
